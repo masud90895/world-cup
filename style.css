@@ -1,0 +1,217 @@
+/*--------------
+common style
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Lato&family=Poppins:wght@500;600&family=Roboto:ital@1&family=Source+Code+Pro:wght@200&family=Water+Brush&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------------
+header section start
+ -------------------*/
+
+ .containar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 613px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 70px 200px;
+ }
+ .greatest-show{
+    width: 40%;
+    
+ }
+ .greatest-show p{
+    color: white;
+    margin-bottom: 30px;
+ }
+ .greatest-show a{
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 10px 15px;
+    border-radius: 10px;
+ }
+ .greatest-show a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid #DD0000;
+    transition: all .5s ease
+ }
+ .greatest-show-title{
+    color: white;
+    font-size: 70px;
+ }
+ .greatest-show-banner{
+    width: 50%;
+ }
+ .greatest-show-banner img{
+    width: 581px;
+    height: 613px;
+ }
+
+ /*--------------------
+  dual section start
+  ---------------------- */
+  .dual-section{
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-around;
+    margin: 0px 61px;
+  }
+  .fixt-section{
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .lingked-blog{
+   
+  }
+  .lingked-blog a{
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   font-size: 20px;
+   border-radius: 20px;
+   padding: 20px;
+  }
+  .lingked-blog a:hover{
+      border: 2px solid #DD0000;
+  }
+  .all-groupe a{
+    padding: 20px 56px;
+  }
+  .marked-lingked-blog a{
+   padding: 20px 80px;
+   background-color: #DD0000;
+   color: white;
+  }
+
+
+  /*---------------------
+   match-article start
+   ----------------------*/
+   .match-article{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      column-gap: 10px;
+      row-gap: 10px;
+      margin-bottom: 100px;
+   }
+.match-ditails{
+   width: 312px;
+   height: 362px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   border-radius: 10px;
+}
+.match-ditails h2{
+      font-size: 18px;
+      margin: 14px;
+}
+.transfer-btn{
+   width: 100px;
+   padding: 5px 10px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   margin: 14px 18px;
+}
+.match-time{
+   margin: 14px;
+}
+.time{
+   color: grey;
+   background-color:;
+}
+
+/* footer */
+
+.footer-distributed {
+   background: black;
+   text-align: center;
+   padding: 55px 50px;
+}
+.footer{
+    color: white;
+}
+.hr-line{
+   width: 90%;
+   height: 1px;
+   margin: 0 auto;
+   background-color: grey;
+   margin: 20px 0px;
+}
+.footer-links a{
+   text-decoration: none;
+   color: grey;
+   margin: 0px 20px;  
+}
+.footer-links a:hover{
+   border: 2px solid #DD0000;
+   padding: 10px;
+   border-radius: 10px;
+}
+.social{
+  color: white;
+  font-size: 40px;
+  margin: 40px;
+}
+
+
+/* -------------------
+Responsive media quary
+ -----------------------*/
+ /*phone*/
+@media only screen and (max-width: 688px) {
+   .containar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 30px 72px;
+      align-items: center;
+      height: 496px;
+   }
+   .greatest-show{
+
+   }
+   .greatest-show-title{
+      font-size: 22px;
+      margin-bottom: 10px;
+      margin-top: 26px;
+   }
+   .greatest-show p{
+      font-size: 14px;
+      width: 180%;
+      margin-left: -96px;
+   }
+   .greatest-show-banner img{
+      width: 233px;
+      height: 245px;
+      margin-top: 30px;
+   }
+
+}
+
+
+/* Tab */
+    @media only screen and (min-width:689px) and (max-width:992px){
+
+
+}
+
+
+/* Tab */
+    @media only screen and (min-width:993px) and (max-width:1312px){
+}
+
+
