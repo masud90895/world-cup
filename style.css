@@ -133,6 +133,23 @@ header section start
    color: grey;
    background-color:;
 }
+.view-all{
+   display: none;
+   text-align: center;
+   margin-top: 25px;
+}
+.view-all a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 10px;
+   background-color: #DD0000;  
+}
+.view-all a:hover{
+   background-color: white;
+   color: black;
+   border: 2px solid #DD0000;
+}
 
 /* footer */
 
@@ -150,6 +167,10 @@ header section start
    margin: 0 auto;
    background-color: grey;
    margin: 20px 0px;
+}
+.footer-links{
+   display: flex;
+    justify-content: center;
 }
 .footer-links a{
    text-decoration: none;
@@ -177,9 +198,12 @@ Responsive media quary
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      margin: 30px 72px;
       align-items: center;
       height: 496px;
+      width: 100%;
+      margin: 0% 0%;
+      margin-bottom: 10%;
+      margin-top: 5%;
    }
    .greatest-show{
 
@@ -188,6 +212,7 @@ Responsive media quary
       font-size: 22px;
       margin-bottom: 10px;
       margin-top: 26px;
+      margin-left: -76px;
    }
    .greatest-show p{
       font-size: 14px;
@@ -200,18 +225,250 @@ Responsive media quary
       margin-top: 30px;
    }
 
+   .dual-section{
+         flex-direction: column;
+         margin: 0px 0px;
+         margin-bottom: 55%;
+      }
+   .fixt-section{
+      background-color: white;
+      margin-left: 63px;
+      margin-top: -10%;
+   }
+   .lingked-blog a{
+      border: 1px solid grey;
+   }
+   .match-article{
+      grid-template-columns: repeat(1,1fr);
+      row-gap: 1%;
+   }
+   .match-ditails{
+      width: 409px;
+      height: 408px;
+      width: 100%;
+      margin: 0% 0%;
+   }
+   .match-ditails img{
+      width: 100%;
+   }
+   .footer-distributed{
+      margin-top: 5%;
+      width: 73%;
+      margin-top: 35%;
+   }
+   .footer h2{
+      margin-left: -30%;
+
+   }
+   .footer-links{
+      flex-direction: column;
+      margin-left: -30%;
+   }
+   .footer-links a{
+      padding: 5px;
+   }
+   .social-icon{
+      margin-left: -19%;
+   }
+   .social{
+      margin-left: 0%;
+      margin: 15px;
+   }
+
 }
 
 
 /* Tab */
     @media only screen and (min-width:689px) and (max-width:992px){
+      .containar {
+         justify-content: flex-start;
+         align-items: center;
+         height: 398px;
+         width: 100%;
+         margin: 0% 0%;
+         margin-bottom: 10%;
+         margin-top: 5%;
+      }
+      .greatest-show{
+         margin-left: 15%;
+      }
+      .greatest-show-title{
+         font-size: 22px;
+         margin-bottom: 10px;
+         margin-top: 26px;
+         margin-left: -69px;
+      }
+      .greatest-show p{
+         font-size: 14px;
+         width: 100%;
+         margin-left: -60px;
+      }
+      .greatest-show a{
+         margin-left: -20%;
+      }
+      .greatest-show-banner img{
+         width: 323px;
+         height: 340px;
+         margin-top: 62px;
+      }
+   
+      .dual-section{
+            flex-direction: column;
+            margin: 0px 0px;
+            margin-bottom: 18%;
+         }
+      .fixt-section{
+         display: flex;
+         flex-direction: row;
+         background-color: white;
+         margin-top: -10%;
+         width: 100%;
+         height: 140px;
+      }
+      .lingked-blog a{
+         border: 1px solid grey;
+      }
+      .match-article{
+         grid-template-columns: repeat(2,1fr);
+         row-gap: 2%;
+          column-gap: 2%;
+         margin: 0px 20px;
+      }
+      .match-ditails{
+         width: 409px;
+         height: 408px;
+         width: 100%;
+         margin: 0% 0%;
+      }
+      .match-ditails img{
+         width: 100%;
+      }
+      .view-all{
+         display: inline;
+         margin-left: 70%;
+         margin-bottom: 20px;
+      }
+      .footer-distributed{
+         margin-top: 5%;
+         width: 88%;
+      }
+      .footer h2{
+         margin-left: -10%;
+   
+      }
+      .footer-links{
+         flex-direction: column;
+         margin-left: -10%;
+      }
+      .footer-links a{
+         padding: 5px;
+      }
+      .social-icon{
+         margin-left: -19%;
+      }
+      .social{
+         margin-left: 0%;
+         margin: 15px;
+      }
+      .visible{
+         display: none;
+      }
 
 
 }
 
 
-/* Tab */
+/* pc */
     @media only screen and (min-width:993px) and (max-width:1312px){
+      .containar {
+         justify-content: flex-start;
+         align-items: center;
+         height: 398px;
+         width: 100%;
+         margin: 0% 0%;
+         margin-bottom: 10%;
+         margin-top: 5%;
+      }
+      .greatest-show{
+         margin-left: 15%;
+      }
+      .greatest-show-title{
+         font-size: 22px;
+         margin-bottom: 10px;
+         margin-top: 26px;
+         margin-left: -69px;
+      }
+      .greatest-show p{
+         font-size: 14px;
+         width: 100%;
+         margin-left: -60px;
+      }
+      .greatest-show a{
+         margin-left: -20%;
+      }
+      .greatest-show-banner img{
+         width: 323px;
+         height: 340px;
+         margin-top: 62px;
+      }
+   
+      .dual-section{
+            flex-direction: column;
+            margin: 0px 0px;
+            margin-bottom: 18%;
+         }
+      .fixt-section{
+         display: flex;
+         flex-direction: row;
+         background-color: white;
+         margin-top: -10%;
+         width: 100%;
+         height: 140px;
+      }
+      .lingked-blog a{
+         border: 1px solid grey;
+      }
+      .match-article{
+         grid-template-columns: repeat(2,1fr);
+         row-gap: 2%;
+          column-gap: 2%;
+         margin: 0px 20px;
+      }
+      .match-ditails{
+         width: 409px;
+         height: 408px;
+         width: 100%;
+         margin: 0% 0%;
+      }
+      .match-ditails img{
+         width: 100%;
+      }
+      .footer-distributed{
+         margin-top: 5%;
+         width: 90%;
+      }
+      .footer h2{
+         margin-left: -10%;
+   
+      }
+      .footer-links{
+         flex-direction: column;
+         margin-left: -10%;
+      }
+      .footer-links a{
+         padding: 5px;
+      }
+      .social-icon{
+         margin-left: -19%;
+      }
+      .social{
+         margin-left: 0%;
+         margin: 15px;
+      }
+      .visible{
+         display: none;
+      }
+
 }
 
 
