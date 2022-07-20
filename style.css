@@ -129,6 +129,9 @@ header section start
 .match-time{
    margin: 14px;
 }
+.fa-message{
+   margin-left: 53px;
+}
 .time{
    color: grey;
    background-color:;
@@ -166,7 +169,7 @@ header section start
    height: 1px;
    margin: 0 auto;
    background-color: grey;
-   margin: 20px 0px;
+   margin: 20px 50px;
 }
 .footer-links{
    display: flex;
@@ -200,8 +203,8 @@ Responsive media quary
       justify-content: flex-start;
       align-items: center;
       height: 496px;
-      width: 100%;
-      margin: 0% 0%;
+      width: 95%;
+      margin: 0% 9px;
       margin-bottom: 10%;
       margin-top: 5%;
    }
@@ -217,7 +220,7 @@ Responsive media quary
    .greatest-show p{
       font-size: 14px;
       width: 180%;
-      margin-left: -96px;
+      margin-left: -73px;
    }
    .greatest-show-banner img{
       width: 233px;
@@ -232,7 +235,7 @@ Responsive media quary
       }
    .fixt-section{
       background-color: white;
-      margin-left: 63px;
+      margin-left: 38px;
       margin-top: -10%;
    }
    .lingked-blog a{
@@ -245,8 +248,8 @@ Responsive media quary
    .match-ditails{
       width: 409px;
       height: 408px;
-      width: 100%;
-      margin: 0% 0%;
+      width: 95%;
+      margin: 0% 9px;
    }
    .match-ditails img{
       width: 100%;
@@ -256,19 +259,23 @@ Responsive media quary
       width: 73%;
       margin-top: 35%;
    }
-   .footer h2{
+   .hr-line{
+      width: 100%;
+      margin: 20px 3px;
+   }
+   /* .footer h2{
       margin-left: -30%;
 
-   }
+   } */
    .footer-links{
       flex-direction: column;
-      margin-left: -30%;
+      margin-bottom: 20px;
    }
    .footer-links a{
       padding: 5px;
    }
    .social-icon{
-      margin-left: -19%;
+      margin-left: -9px;
    }
    .social{
       margin-left: 0%;
@@ -284,8 +291,8 @@ Responsive media quary
          justify-content: flex-start;
          align-items: center;
          height: 398px;
-         width: 100%;
-         margin: 0% 0%;
+         width: 95%;
+         margin: 0% 20px;
          margin-bottom: 10%;
          margin-top: 5%;
       }
@@ -352,19 +359,18 @@ Responsive media quary
          margin-top: 5%;
          width: 88%;
       }
-      .footer h2{
+      /* .footer h2{
          margin-left: -10%;
    
-      }
+      } */
       .footer-links{
          flex-direction: column;
-         margin-left: -10%;
       }
       .footer-links a{
          padding: 5px;
       }
       .social-icon{
-         margin-left: -19%;
+         margin-left: -20px;
       }
       .social{
          margin-left: 0%;
@@ -384,8 +390,8 @@ Responsive media quary
          justify-content: flex-start;
          align-items: center;
          height: 398px;
-         width: 100%;
-         margin: 0% 0%;
+         width: 95%;
+         margin: 0% 24px;
          margin-bottom: 10%;
          margin-top: 5%;
       }
@@ -436,7 +442,7 @@ Responsive media quary
       }
       .match-ditails{
          width: 409px;
-         height: 408px;
+         height: 494px;
          width: 100%;
          margin: 0% 0%;
       }
@@ -459,7 +465,7 @@ Responsive media quary
          padding: 5px;
       }
       .social-icon{
-         margin-left: -19%;
+         margin-left: -100px;
       }
       .social{
          margin-left: 0%;
